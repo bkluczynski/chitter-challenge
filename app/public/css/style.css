@@ -1,18 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+
 body {
 
 text-align: center;
-
+font-family: 'Indie Flower', sans-serif;
 }
 
 body {
-  background-color: orange
+  background-image:url("https://images.unsplash.com/photo-1474679294639-dc85e32f2ef0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=97bfcfbdd233217a2f3c92ca7ec0ae11");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
 font-size: 71px;
 color: white;
+font-family: 'Indie Flower', sans-serif;
 
 }
+
+h2 {
+font-size:60px;
+color: white;
+font-family: 'Indie Flower', sans-serif;
+
+}
+
 
 p {
 font-size: 20px
@@ -21,5 +36,43 @@ font-size: 20px
 h4 {
 
 font-size: 20px
+
+}
+
+.buttons {
+  font-family: 'Indie Flower', sans-serif;
+  width:200px;
+
+}
+
+.buttons2 {
+  width:auto;
+  text-align: center;
+}
+
+.sign_up{
+
+text-align: center;
+margin-right:40%;
+margin-left:40%;
+color:white;
+font-family: 'Indie Flower', sans-serif;
+
+
+}
+.form {
+  margin-top:10%;
+  margin-bottom:10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 163px;
+}
+.please {
+  margin-bottom: 10px;
+
+}
+
+.input {
+width:163px;
 
 }
